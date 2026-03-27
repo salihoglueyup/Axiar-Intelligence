@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://axiar.io/sitemap.xml
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /login
+Disallow: /portal/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow specific API endpoints for search engines
+Allow: /api/contact
+Allow: /api/webhooks
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

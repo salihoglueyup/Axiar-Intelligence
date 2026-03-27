@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🔍 Running pre-commit checks..."
+
+# Run lint-staged
+echo "📝 Running lint-staged..."
+npx lint-staged
+
+# Run TypeScript check
+echo "🔷 Running TypeScript check..."
+npx tsc --noEmit --project ./tsconfig.json
+
+# Run tests
+echo "🧪 Running tests..."
+npm run test -- --passWithNoTests --bail --watchAll=false
+
+# Check for security vulnerabilities
+echo "🔒 Running security audit..."
+npm audit --audit-level moderate
+
+echo "✅ Pre-commit checks completed!"

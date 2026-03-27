@@ -1,0 +1,36 @@
+{
+  "name": "axiarintelligence",
+  "version": "1.0.0",
+  "description": "Axiar Intelligence Platform — Full-stack monorepo",
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:api\"",
+    "dev:client": "cd client && npm run dev",
+    "dev:api": "vercel dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "lint": "cd client && npm run lint",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:migrate": "supabase db push",
+    "supabase:seed": "supabase db seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "supabase": "^1.191.3",
+    "vercel": "^37.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "zod": "^3.22.0",
+    "resend": "^3.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
