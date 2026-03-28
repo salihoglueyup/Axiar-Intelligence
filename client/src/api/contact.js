@@ -70,7 +70,7 @@ export const GET = async (req, res) => {
       submissions: submissions.slice(-10), // Last 10 submissions
       total: submissions.length
     })
-  } catch (error) {
+  } catch {
     res.status(500).json({
       success: false,
       message: 'Veriler alınamadı'

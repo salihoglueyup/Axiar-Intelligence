@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Bell, X, Check, AlertCircle, Info, CheckCircle, AlertTriangle } from 'lucide-react'
 import Card from '@/components/ui/Card'
@@ -15,14 +15,14 @@ const LiveNotifications = ({
 }) => {
   const [isVisible, setIsVisible] = useState(false)
   const [expanded, setExpanded] = useState(false)
-  const containerRef = useRef(null)
+
   
   const {
     notifications,
     unreadCount,
     markAsRead,
     markAllAsRead,
-    clearNotifications,
+
     isConnected
   } = useRealTimeNotifications(userId)
 

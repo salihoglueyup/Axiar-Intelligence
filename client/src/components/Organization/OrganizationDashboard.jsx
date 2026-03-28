@@ -24,12 +24,7 @@ const OrganizationDashboard = ({ className = '' }) => {
     return Math.round(bytes / Math.pow(1024, i) * 100) / 100 + ' ' + sizes[i]
   }
 
-  const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('tr-TR', {
-      style: 'currency',
-      currency: 'TRY'
-    }).format(amount)
-  }
+
 
   const getUsagePercentage = (used, limit) => {
     return Math.round((used / limit) * 100)

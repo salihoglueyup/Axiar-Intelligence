@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {
+  motion,
+  AnimatePresence } from 'framer-motion';
 import { 
   Accessibility,
   Eye,
@@ -78,11 +80,9 @@ import {
   SaveAs,
   Print,
   Printer,
-  Scan,
   Edit,
   Edit2,
   Edit3,
-  Type,
   Type2,
   Type3,
   Bold,
@@ -124,7 +124,6 @@ import {
   Kiss,
   Cry,
   Dizzy,
-  Frown,
   Grimace,
   Grin,
   HeartEyes,
@@ -141,7 +140,6 @@ import {
   StuckOutTongueClosedEyes,
   WinkingFace,
   Yum,
-  Zap,
   ZapOff,
   ZapOn,
   Zap2,

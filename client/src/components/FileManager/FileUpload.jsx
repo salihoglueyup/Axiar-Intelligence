@@ -140,7 +140,7 @@ const FileUpload = ({
       } else {
         throw new Error('Upload failed')
       }
-    } catch (error) {
+    } catch {
       setUploadErrors(prev => ({
         ...prev,
         [file.name]: ['Yükleme başarısız oldu']
@@ -264,7 +264,7 @@ const FileUpload = ({
             </div>
 
             <div className="space-y-3">
-              {files.map((file, index) => {
+              {files.map((file) => {
                 const progress = uploadProgress[file.name] || 0
                 const errors = uploadErrors[file.name] || []
                 const isComplete = progress === 100

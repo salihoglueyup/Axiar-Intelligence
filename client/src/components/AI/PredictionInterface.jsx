@@ -4,7 +4,7 @@ import { Send, Brain, Zap, TrendingUp, Activity, BarChart3, PieChart, LineChart,
 import Card from '@/components/ui/Card'
 import Button from '@/components/ui/Button'
 import Input from '@/components/ui/Input'
-import { usePredictions, useModels } from '@/hooks/useAI'
+import { usePredictions } from '@/hooks/useAI'
 
 const PredictionInterface = ({ className = '' }) => {
   const [selectedModel, setSelectedModel] = useState(null)

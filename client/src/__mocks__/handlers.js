@@ -30,7 +30,7 @@ export const handlers = [
   }),
 
   rest.post('/api/auth/register', (req, res, ctx) => {
-    const { email, password, name } = req.body
+    const { email, name } = req.body
     
     return res(
       ctx.status(201),
@@ -266,7 +266,7 @@ export const handlers = [
     )
   }),
 
-  rest.get('/api/test/network-error', (req, res, ctx) => {
+  rest.get('/api/test/network-error', (req, res) => {
     // Simulate network error
     return res.networkError('Network error simulated')
   }),

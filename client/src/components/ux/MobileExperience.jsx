@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
+import {
+  motion,
+  AnimatePresence,
+  useMotionValue,
+  useSpring,
+  useTransform } from 'framer-motion';
 import { 
   Smartphone,
   Tablet,
@@ -45,7 +50,6 @@ import {
   Pinch,
   ZoomIn,
   ZoomOut,
-  RotateCw,
   RotateCcw,
   Volume2,
   VolumeX,
@@ -124,7 +128,6 @@ import {
   Kiss,
   Cry,
   Dizzy,
-  Frown,
   Grimace,
   Grin,
   HeartEyes,

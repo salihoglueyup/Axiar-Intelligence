@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {
+  motion,
+  AnimatePresence } from 'framer-motion';
 import { 
   Cpu,
   Zap,
@@ -86,7 +88,6 @@ import {
   ListOrdered,
   ListUnordered,
   CheckSquare,
-  Square,
   Circle,
   Triangle,
   Hexagon,
@@ -111,7 +112,6 @@ import {
   Kiss,
   Cry,
   Dizzy,
-  Frown,
   Grimace,
   Grin,
   HeartEyes,
@@ -128,7 +128,6 @@ import {
   StuckOutTongueClosedEyes,
   WinkingFace,
   Yum,
-  Zap,
   ZapOff,
   ZapOn,
   Zap2,

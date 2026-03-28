@@ -1,0 +1,381 @@
+﻿
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\PerformanceMonitor.jsx
+  5:29  error  'trackError' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Security\SIEMDashboard.jsx
+  154:10  error  'selectedAlert' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Security\ThreatDetection.jsx
+   1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  19:34  error  'updateThreat' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Security\ThreatIntelligence.jsx
+  169:10  error  'selectedThreat' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  169:26  error  'setSelectedThreat' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  188:67  error  'Package' is not defined                                                                           no-undef
+  195:32  error  'Link' is not defined                                                                              no-undef
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Security\ZeroTrustPlatform.jsx
+   1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+  47:22  error  'setTrustLevel' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  56:10  error  'selectedPolicy' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  56:26  error  'setSelectedPolicy' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\VirtualGrid.jsx
+  21:5   error  'columns' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u               no-unused-vars
+  22:16  error  'calculatedItemWidth' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  23:17  error  'calculatedItemHeight' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Workflow\TaskManager.jsx
+    1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+   11:10  error  'showCommentModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   18:18  error  'isLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u            no-unused-vars
+  125:9   error  'handleAddAttachment' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\Workflow\WorkflowBuilder.jsx
+    1:27  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+   11:10  error  'editingWorkflow' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+   28:10  error  'draggedStep' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   61:13  error  'workflow' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  107:9   error  'handleUpdateWorkflow' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  177:9   error  'addConnection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  222:15  error  'x' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+  223:15  error  'y' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\analytics\AdvancedAnalytics.jsx
+  220:9  error  'getTrendIcon' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\analytics\BIDashboard.jsx
+   58:10  error  'selectedMetric' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   58:26  error  'setSelectedMetric' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   61:10  error  'metrics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u            no-unused-vars
+   61:19  error  'setMetrics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  105:9   error  'salesData' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\analytics\DataSciencePlatform.jsx
+  96:10  error  'datasets' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  96:20  error  'setDatasets' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  97:10  error  'models' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  97:18  error  'setModels' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  98:10  error  'experiments' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  98:23  error  'setExperiments' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  99:10  error  'predictions' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  99:23  error  'setPredictions' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\compliance\RegionalCompliance.jsx
+  38:10  error  'showDetails' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  38:23  error  'setShowDetails' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\enterprise\AuditLogs.jsx
+  158:14  error  'err' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\enterprise\DataGovernance.jsx
+  162:14  error  'err' is defined but never used                                                                         no-unused-vars
+  169:9   error  'getStatusIcon' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  182:9   error  'getStatusColor' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  195:9   error  'getClassificationColor' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  546:55  error  'isLoading' is defined but never used                                                                   no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\enterprise\RoleManager.jsx
+   23:10  error  'users' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   23:17  error  'setUsers' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   86:14  error  'err' is defined but never used                                                           no-unused-vars
+  113:14  error  'err' is defined but never used                                                           no-unused-vars
+  129:14  error  'err' is defined but never used                                                           no-unused-vars
+  140:14  error  'err' is defined but never used                                                           no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\enterprise\SSOManagement.jsx
+  40:14  error  'err' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\enterprise\SSOProvider.jsx
+  1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\infrastructure\CloudNativeDashboard.jsx
+  127:3  error  Parsing error: Identifier 'Cloud' has already been declared
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\infrastructure\KubernetesDashboard.jsx
+    1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+   64:10  error  'configMaps' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   64:22  error  'setConfigMaps' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+   65:10  error  'secrets' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+   65:19  error  'setSecrets' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   66:10  error  'ingress' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+   66:19  error  'setIngress' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   67:10  error  'volumes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+   67:19  error  'setVolumes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   72:10  error  'expandedSections' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   74:10  error  'selectedResource' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   74:28  error  'setSelectedResource' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   75:10  error  'showYaml' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+   75:20  error  'setShowYaml' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  221:9   error  'toggleSection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\infrastructure\MicroservicesMonitor.jsx
+    1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+   80:10  error  'circuitBreakers' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   80:27  error  'setCircuitBreakers' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+   81:10  error  'loadBalancers' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+   81:25  error  'setLoadBalancers' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   82:10  error  'serviceDiscovery' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   82:28  error  'setServiceDiscovery' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   83:10  error  'monitoring' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   83:22  error  'setMonitoring' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+   87:10  error  'selectedService' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   87:27  error  'setSelectedService' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+   88:10  error  'expandedSections' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   91:10  error  'selectedInstance' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+   91:28  error  'setSelectedInstance' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  255:9   error  'toggleSection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\innovation\BlockchainDashboard.jsx
+     1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+     1:51  error  'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+  1154:10  error  'analytics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u            no-unused-vars
+  1154:21  error  'setAnalytics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1158:10  error  'selectedWallet' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1158:26  error  'setSelectedWallet' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+  1159:10  error  'expandedSections' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1161:10  error  'showPrivateKey' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1161:26  error  'setShowPrivateKey' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+  1162:10  error  'selectedContract' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1162:28  error  'setSelectedContract' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1163:10  error  'gasPrice' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1163:20  error  'setGasPrice' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1164:10  error  'blockHeight' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1164:23  error  'setBlockHeight' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1165:28  error  'setMiningDifficulty' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1513:9   error  'toggleSection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\innovation\QuantumComputing.jsx
+     1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+     1:51  error  'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                        no-unused-vars
+  1141:10  error  'research' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1141:20  error  'setResearch' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1142:10  error  'metrics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  1142:19  error  'setMetrics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  1144:10  error  'searchTerm' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  1144:22  error  'setSearchTerm' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1145:10  error  'filterType' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  1145:22  error  'setFilterType' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1146:10  error  'selectedComputer' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1146:28  error  'setSelectedComputer' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1147:10  error  'expandedSections' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1150:24  error  'setQuantumState' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1157:10  error  'circuitEditor' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1157:25  error  'setCircuitEditor' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1414:9   error  'toggleSection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\integrations\ApiMarketplace.jsx
+  50:10  error  'selectedIntegration' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\integrations\IntegrationBuilder.jsx
+   89:9   error  'httpMethods' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   90:9   error  'eventTypes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  369:55  error  Unexpected constant truthiness on the left-hand side of a `||` expression                    no-constant-binary-expression
+  490:49  error  'index' is defined but never used                                                            no-unused-vars
+  545:52  error  'paramIndex' is defined but never used                                                       no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\integrations\WebhookManager.jsx
+  47:10  error  'selectedWebhook' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  48:10  error  'showCreateModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  49:10  error  'showLogsModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  49:25  error  'setShowLogsModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  77:9   error  'httpMethods' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  78:9   error  'contentTypes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\landing\GlobalStatusWidget.jsx
+  19:22  error  'setGlobalData' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\landing\Hero.jsx
+  1:17  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  8:9   error  'canvasRef' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\landing\IntegrationStatusWidget.jsx
+  20:27  error  'setIntegrationData' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\landing\LandingDashboard.jsx
+  1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\landing\StatisticsDashboard.jsx
+  21:17  error  'setStats' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ui\ErrorBoundary.jsx
+  13:35  error  'error' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ui\GlobalErrorBoundary.jsx
+  10:35  error  'error' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ui\Skeleton.jsx
+  36:11  error  'commonClasses' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  60:9   error  Unexpected lexical declaration in case block                                                   no-case-declarations
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ux\AccessibilityHelper.jsx
+     1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+  1155:10  error  'ariaLabels' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1155:22  error  'setAriaLabels' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1156:10  error  'altText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1156:19  error  'setAltText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1162:10  error  'linkUnderlines' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1162:26  error  'setLinkUnderlines' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  1163:10  error  'buttonLabels' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1163:24  error  'setButtonLabels' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1164:10  error  'errorMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1164:25  error  'setErrorMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+  1165:10  error  'successMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1165:27  error  'setSuccessMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1166:10  error  'warningMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1166:27  error  'setWarningMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1167:10  error  'infoMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1167:24  error  'setInfoMessages' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1168:10  error  'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1168:19  error  'setLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1172:10  error  'selectedRegion' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1172:26  error  'setSelectedRegion' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ux\AdvancedUIComponents.jsx
+     1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+     1:51  error  'useRef' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                      no-unused-vars
+  1187:20  error  'setContrast' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1196:23  error  'setOrientation' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1202:10  error  'animations' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1202:22  error  'setAnimations' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1203:10  error  'transitions' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1203:23  error  'setTransitions' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1204:10  error  'hoverEffects' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1204:24  error  'setHoverEffects' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+  1205:10  error  'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u            no-unused-vars
+  1205:19  error  'setLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1207:10  error  'customSettings' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  1207:26  error  'setCustomSettings' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1212:9   error  'scale' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  1213:9   error  'rotate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1214:9   error  'backgroundX' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1215:9   error  'backgroundY' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  1688:67  error  'index' is defined but never used                                                                  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\components\ux\MobileExperience.jsx
+     1:38  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+     5:3   error  'useMotionValue' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+     6:3   error  'useSpring' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                      no-unused-vars
+     7:3   error  'useTransform' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                   no-unused-vars
+  1184:25  error  'setShowStatusBar' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1185:29  error  'setShowNavigationBar' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  1187:10  error  'reducedMotion' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1187:25  error  'setReducedMotion' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  1188:10  error  'highContrast' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1188:24  error  'setHighContrast' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1189:10  error  'largeText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u             no-unused-vars
+  1189:21  error  'setLargeText' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1190:10  error  'screenReader' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+  1190:24  error  'setScreenReader' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+  1193:10  error  'notifications' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1194:10  error  'appState' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  1194:20  error  'setAppState' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+  1196:10  error  'syncStatus' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u            no-unused-vars
+  1196:22  error  'setSyncStatus' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  1252:16  error  'error' is defined but never used                                                                     no-unused-vars
+  1269:16  error  'error' is defined but never used                                                                     no-unused-vars
+  1313:16  error  'error' is defined but never used                                                                     no-unused-vars
+  1445:16  error  'error' is defined but never used                                                                     no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\hooks\useDebounce.js
+  37:19  error  'useRef' is not defined  no-undef
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\hooks\useIntersection.js
+  1:31  error  'useCallback' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\hooks\useLoading.js
+  1:20  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\hooks\useVirtualList.js
+  65:10  error  'scrollLeft' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\layouts\PortalLayout.jsx
+  31:22  error  'setIsScrolled' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\AI.jsx
+   36:10  error  'models' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   37:10  error  'isTraining' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  117:44  error  'config' is defined but never used                                                          no-unused-vars
+  136:38  error  'modelId' is defined but never used                                                         no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\Global.jsx
+   36:10  error  'globalStats' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   36:23  error  'setGlobalStats' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  323:24  error  'setTranslations' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\AI.jsx
+   1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+  39:10  error  'showCreateModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  40:19  error  'predictions' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  40:32  error  'isLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Dashboard.jsx
+  1:17  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\ForgotPassword.jsx
+  23:14  error  'error' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Invoices.jsx
+  28:10  error  'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Login.jsx
+  37:14  error  'error' is defined but never used  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Projects.jsx
+  17:10  error  'useSupabaseQuery' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  27:10  error  'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Register.jsx
+  20:9   error  'navigate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  42:14  error  'error' is defined but never used                                                         no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Reports.jsx
+  24:10  error  'loading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Security.jsx
+    1:27   error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                  no-unused-vars
+   36:23   error  'useSecurityPolicies' is defined but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+   36:44   error  'useSecurityThreats' is defined but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+   36:64   error  'useSecurityAnalytics' is defined but never used. Allowed unused vars must match /^[A-Z_]/u       no-unused-vars
+   36:86   error  'useSecurityAlerts' is defined but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+   36:105  error  'useSecurityCompliance' is defined but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+   40:10   error  'showCreateModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+   41:11   error  'policies' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u          no-unused-vars
+   41:21   error  'threats' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u           no-unused-vars
+   41:30   error  'analytics' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+   41:49   error  'complianceStatus' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+   41:67   error  'riskAssessment' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+   41:83   error  'isLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u         no-unused-vars
+  181:9    error  'recentAlerts' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u      no-unused-vars
+  283:26   error  'getStatusColor' is defined but never used                                                        no-unused-vars
+  284:25   error  'getStatusColor' is defined but never used                                                        no-unused-vars
+  285:30   error  'getStatusColor' is defined but never used                                                        no-unused-vars
+  286:24   error  'getStatusColor' is defined but never used                                                        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\pages\portal\Workflow.jsx
+   1:27  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                 no-unused-vars
+  30:23  error  'useWorkflowExecutions' is defined but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+  34:10  error  'showCreateModal' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  35:41  error  'approvals' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  35:52  error  'isLoading' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\services\api.js
+  29:16  error  'e' is defined but never used  no-unused-vars
+  29:19  error  Empty block statement          no-empty
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\setupTests.js
+  4:10  error  'handlers' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\utils\security.js
+  47:5   error  'allowedTags' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u        no-unused-vars
+  48:5   error  'allowedAttributes' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  55:14  error  Unexpected control character(s) in regular expression: \x00, \x1f                                  no-control-regex
+  56:14  error  Unexpected control character(s) in regular expression: \x00, \x1f                                  no-control-regex
+
+C:\Gelistirme\axiosintelligence(windsurf)\client\src\utils\testUtils.js
+  172:52  error  'expectedError' is defined but never used  no-unused-vars
+
+Ô£û 264 problems (264 errors, 0 warnings)
+

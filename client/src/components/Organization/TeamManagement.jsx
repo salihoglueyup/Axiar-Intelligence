@@ -12,8 +12,8 @@ const TeamManagement = ({ className = '' }) => {
   const [inviteRole, setInviteRole] = useState('viewer')
   const [showRoleDropdown, setShowRoleDropdown] = useState(null)
   
-  const { teamMembers, isLoading: membersLoading, inviteMember, updateMemberRole, removeMember } = useTeamMembers()
-  const { invitations, isLoading: invitationsLoading, fetchInvitations } = useInvitations()
+  const { teamMembers, inviteMember, updateMemberRole, removeMember } = useTeamMembers()
+  const { invitations, fetchInvitations } = useInvitations()
   const { can, isOwner, isAdmin, isManager } = usePermissions()
 
   useEffect(() => {

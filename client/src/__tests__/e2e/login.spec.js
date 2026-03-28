@@ -139,7 +139,7 @@ test.describe('Login Page E2E Tests', () => {
 
   test('should have proper loading indicators', async ({ page }) => {
     // Mock loading state
-    await page.route('/api/auth/login', route => {
+    await page.route('/api/auth/login', () => {
       // Don't fulfill immediately to show loading
     })
 

@@ -1,0 +1,61 @@
+﻿node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Pr
+ogram Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:  
+   (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE 
+   rror
+ 
+Oops! Something went wrong! :(
+
+ESLint: 9.39.4
+
+ReferenceError: Cannot read config file: C:\G
+elistirme\axiosintelligence(windsurf)\client\
+.eslintrc.js
+Error: module is not defined in ES module sco
+pe
+This file is being treated as an ES module be
+cause it has a '.js' file extension and 'C:\G
+elistirme\axiosintelligence(windsurf)\client\
+package.json' contains "type": "module". To t
+reat it as a CommonJS script, rename it to us
+e the '.cjs' file extension.
+    at file:///C:/Gelistirme/axiosintelligenc
+e(windsurf)/client/.eslintrc.js:1:1
+    at ModuleJobSync.runSync (node:internal/m
+odules/esm/module_job:514:37)
+    at ModuleLoader.importSyncForRequire (nod
+e:internal/modules/esm/loader:449:47)
+    at loadESMFromCJS (node:internal/modules/
+cjs/loader:1577:24)
+    at Module._compile (node:internal/modules
+/cjs/loader:1742:5)
+    at Object..js (node:internal/modules/cjs/
+loader:1893:10)
+    at Module.load (node:internal/modules/cjs
+/loader:1480:32)
+    at Module._load (node:internal/modules/cj
+s/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnos
+tics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/
+cjs/loader:244:24)
+(node:5316) ESLintRCWarning: You are using an
+ eslintrc configuration file, which is deprec
+ated and support will be removed in v10.0.0. 
+Please migrate to an eslint.config.js file. S
+ee https://eslint.org/docs/latest/use/configu
+re/migration-guide for details. An eslintrc c
+onfiguration file is used because you have th
+e ESLINT_USE_FLAT_CONFIG environment variable
+ set to false. If you want to use an eslint.c
+onfig.js file, remove the environment variabl
+e. If you want to find the location of the es
+lintrc configuration file, use the --debug fl
+ag.
+(Use `node --trace-warnings ...` to show wher
+e the warning was created)

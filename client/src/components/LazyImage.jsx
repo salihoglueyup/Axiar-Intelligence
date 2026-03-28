@@ -11,8 +11,6 @@ const LazyImage = ({
   loading = 'lazy',
   sizes,
   srcSet,
-  quality = 75,
-  format = 'webp',
   onLoad,
   onError,
   ...props 

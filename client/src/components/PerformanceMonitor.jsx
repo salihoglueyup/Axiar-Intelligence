@@ -130,13 +130,7 @@ const PerformanceMonitor = ({ children }) => {
     }
   }, [trackPerformance])
 
-  // Error boundary for performance errors
-  const handleError = useCallback((error, errorInfo) => {
-    trackError('performance_error', error.message, {
-      componentStack: errorInfo.componentStack,
-      timestamp: Date.now()
-    })
-  }, [trackError])
+
 
   // Performance score calculation
   const calculatePerformanceScore = useCallback(() => {

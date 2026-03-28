@@ -29,13 +29,12 @@ const NaturalLanguageProcessing = () => {
   const [inputText, setInputText] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const [analysisResults, setAnalysisResults] = useState(null);
-  const [selectedFile, setSelectedFile] = useState(null);
   const [isRecording, setIsRecording] = useState(false);
   const [audioTranscript, setAudioTranscript] = useState('');
   const [translationResults, setTranslationResults] = useState(null);
 
   const textAreaRef = useRef(null);
-  const fileInputRef = useRef(null);
+
 
   const tabs = [
     { id: 'chatbot', label: 'AI Chatbot', icon: <MessageSquare className="w-4 h-4" /> },
@@ -92,7 +91,7 @@ const NaturalLanguageProcessing = () => {
     }, 1500);
   };
 
-  const generateAIResponse = (input) => {
+  const generateAIResponse = () => {
     const responses = [
       "That's an interesting question! Let me help you with that.",
       "Based on my analysis, I can provide you with the following insights...",
@@ -207,7 +206,7 @@ const NaturalLanguageProcessing = () => {
 
   const startRecording = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      await navigator.mediaDevices.getUserMedia({ audio: true });
       setIsRecording(true);
       
       // Mock recording - replace with actual Web Audio API

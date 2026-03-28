@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { 
   BarChart3, 
@@ -26,16 +26,15 @@ import {
 } from 'lucide-react'
 import Card, { CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
 import Button from '@/components/ui/Button'
-import DashboardBuilder from '@/components/Analytics/DashboardBuilder'
-import ReportBuilder from '@/components/Analytics/ReportBuilder'
-import PredictiveAnalytics from '@/components/Analytics/PredictiveAnalytics'
+import DashboardBuilder from '@/components/analytics/DashboardBuilder'
+import ReportBuilder from '@/components/analytics/ReportBuilder'
+import PredictiveAnalytics from '@/components/analytics/PredictiveAnalytics'
 import { cn } from '@/utils/cn'
 import { useAnalytics } from '@/hooks/useAnalytics'
 
 const Analytics = () => {
   const [activeTab, setActiveTab] = useState('dashboards')
-  const [showCreateModal, setShowCreateModal] = useState(false)
-  const { dashboards, reports, connections, insights, isLoading } = useAnalytics()
+  const { dashboards } = useAnalytics()
 
   const tabs = [
     { id: 'dashboards', label: 'DASHBOARDS', icon: <Box className="w-4 h-4" /> },
@@ -76,7 +75,7 @@ const Analytics = () => {
             <Button variant="secondary" size="sm" icon={RefreshCw} className="bg-white/5 border-white/10 text-nowrap">
               DATA SYNC
             </Button>
-            <Button onClick={() => setShowCreateModal(true)} icon={Plus} className="shadow-[0_0_20px_rgba(0,240,255,0.2)] text-nowrap">
+            <Button icon={Plus} className="shadow-[0_0_20px_rgba(0,240,255,0.2)] text-nowrap">
               YENİ ANALİZ BAŞLAT
             </Button>
           </div>
@@ -160,7 +159,7 @@ const DataPoolTerminal = () => {
         { name: 'PostgreSQL Core', type: 'Database', status: 'connected', load: '42%' },
         { name: 'AWS S3 Bucket', type: 'Storage', status: 'connected', load: '12%' },
         { name: 'Redis Cache', type: 'Memory', status: 'idle', load: '4%' }
-      ].map((conn, i) => (
+      ].map((conn) => (
         <Card glass key={conn.name} neon={conn.status === 'connected'} className="p-6 border-white/5 group">
           <div className="flex items-start justify-between mb-6">
             <div className="p-4 rounded-2xl bg-white/5 border border-white/5 group-hover:border-[var(--color-neon)]/30 transition-colors">

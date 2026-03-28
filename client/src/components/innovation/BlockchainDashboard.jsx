@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {
+  motion,
+  AnimatePresence } from 'framer-motion';
 import { 
   Blocks,
   Link,
@@ -121,7 +123,6 @@ import {
   Kiss,
   Cry,
   Dizzy,
-  Frown,
   Grimace,
   Grin,
   HeartEyes,
@@ -138,7 +139,6 @@ import {
   StuckOutTongueClosedEyes,
   WinkingFace,
   Yum,
-  Zap,
   ZapOff,
   ZapOn,
   Zap2,

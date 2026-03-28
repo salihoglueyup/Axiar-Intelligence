@@ -20,7 +20,7 @@ const Chart = ({
   customColors = ['#06b6d4', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899']
 }) => {
   const canvasRef = useRef(null)
-  const chartRef = useRef(null)
+
   const [isChartReady, setIsChartReady] = useState(false)
   const [chartInstance, setChartInstance] = useState(null)
 
@@ -227,7 +227,7 @@ const Chart = ({
             const total = values.reduce((sum, val) => sum + val, 0)
             const average = values.length > 0 ? total / values.length : 0
             const max = Math.max(...values)
-            const min = Math.min(...values)
+
 
             return (
               <motion.div
@@ -259,8 +259,7 @@ const Chart = ({
 export const StatCard = ({ 
   title, 
   value, 
-  change, 
-  changeType, 
+  change,
   icon, 
   color = 'cyan',
   trend = 'up',

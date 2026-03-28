@@ -179,16 +179,7 @@ const PredictiveAnalytics = () => {
     setPredictions(prev => [newPrediction, ...prev]);
   };
 
-  const getModelTypeColor = (type) => {
-    switch (type) {
-      case 'time_series': return 'text-blue-500';
-      case 'classification': return 'text-green-500';
-      case 'anomaly': return 'text-red-500';
-      case 'regression': return 'text-purple-500';
-      case 'clustering': return 'text-yellow-500';
-      default: return 'text-gray-500';
-    }
-  };
+
 
   const getStatusColor = (status) => {
     switch (status) {

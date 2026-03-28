@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Plus, Play, Pause, Settings, Trash2, Eye, Edit, Copy, Download, Upload, Brain, Cpu, Zap, TrendingUp, CheckCircle, XCircle, Clock, AlertCircle, BarChart3, Activity, Database, Code, Globe } from 'lucide-react'
 import Card from '@/components/ui/Card'
@@ -16,7 +16,7 @@ const ModelManager = ({ className = '' }) => {
   const [typeFilter, setTypeFilter] = useState('all')
   const [frameworkFilter, setFrameworkFilter] = useState('all')
   
-  const { models, createModel, updateModel, deleteModel, trainModel, deployModel, undeployModel } = useModels()
+  const { models, createModel, deleteModel, trainModel, deployModel, undeployModel } = useModels()
 
   const statusOptions = [
     { value: 'all', label: 'Tümü', color: 'text-gray-400' },
@@ -289,11 +289,6 @@ const ModelManager = ({ className = '' }) => {
     
     return matchesSearch && matchesStatus && matchesType && matchesFramework
   })
-
-  const getModelTypeColor = (type) => {
-    const found = typeOptions.find(t => t.value === type)
-    return found ? 'text-gray-400' : 'text-gray-400'
-  }
 
   const getModelTypeLabel = (type) => {
     const found = typeOptions.find(t => t.value === type)

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react'
+import React, { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, Filter, X, ChevronDown, ChevronUp, Calendar, User, Tag, FileText } from 'lucide-react'
 import Input from '@/components/ui/Input'
@@ -12,7 +12,6 @@ const AdvancedSearch = ({
   filters = [],
   placeholder = "Ara...",
   className = '',
-  showFilters = true,
   showAdvancedOptions = true,
   enableHistory = true,
   enableSuggestions = true,
